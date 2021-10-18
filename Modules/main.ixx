@@ -67,7 +67,7 @@ export int main() {
 	const auto applicationInfo = vk::ApplicationInfo{
 		"test.exe",
 		0,
-		"poo",
+		"Engine",
 		0,
 		static_cast<std::uint32_t>(VulkanVersion{ 1, 2, 0 }) };
 	const auto createInfo = vk::InstanceCreateInfo{ vk::InstanceCreateFlags{}, &applicationInfo };
